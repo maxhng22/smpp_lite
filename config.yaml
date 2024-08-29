@@ -1,0 +1,23 @@
+# SMPP Configuration
+file:
+  filename: smpptest
+smpp:
+  host: 0.0.0.0
+  port: 4002
+  systemId : system
+  password : 123456
+  systemType : any
+message:
+  run : true
+  source : 01691231
+  destination : 01822111
+  message : anything
+loadTest:
+  run : true
+  totalMessage : 100
+  tps : 50
+  source : 01691231
+  destination : 01822111
+  message : anything
+
+

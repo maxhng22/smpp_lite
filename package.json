@@ -1,0 +1,18 @@
+{
+  "name": "smpptesting",
+  "version": "1.0.0",
+  "description": "smpp testing for load test and send message",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "max",
+  "license": "ISC",
+  "dependencies": {
+    "cli-progress": "^3.12.0",
+    "js-yaml": "^4.1.0",
+    "pino": "^9.3.2",
+    "pino-pretty": "^11.2.2",
+    "smpp": "^0.6.0-rc.4"
+  }
+}
